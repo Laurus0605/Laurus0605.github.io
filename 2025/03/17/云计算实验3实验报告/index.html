@@ -4,15 +4,50 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>云计算实验3实验报告 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="学号：202200130110 姓名：李彤 班级：计机22.2    实验题目：利用云平台搭建个人博客     实验学时：2 实验日期： 2025年3月12日    实验目的：本实验旨在通过实践操作，掌握基于云计算环境的网站部署技能。具体包括：构建环境并实现个人博客&#x2F;网站的搭建，撰写实验报告，并将这份报告作为一篇博文发布在自己的博客 &#x2F; 网站上。     硬件环境： 联网">
+<meta property="og:type" content="article">
+<meta property="og:title" content="云计算实验3实验报告">
+<meta property="og:url" content="http://example.com/2025/03/17/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="学号：202200130110 姓名：李彤 班级：计机22.2    实验题目：利用云平台搭建个人博客     实验学时：2 实验日期： 2025年3月12日    实验目的：本实验旨在通过实践操作，掌握基于云计算环境的网站部署技能。具体包括：构建环境并实现个人博客&#x2F;网站的搭建，撰写实验报告，并将这份报告作为一篇博文发布在自己的博客 &#x2F; 网站上。     硬件环境： 联网">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/1.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/2.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/3.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/4.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/5.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/6.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/7.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/8.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/9.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/10.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/11.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/12.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/13.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/14.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/15.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/16.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/17.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/18.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/19.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/20.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/21.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/22.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/23.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/24.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/27.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/28.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/29.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/30.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/31.png">
+<meta property="og:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/32.png">
+<meta property="article:published_time" content="2025-03-17T09:14:01.000Z">
+<meta property="article:modified_time" content="2025-03-17T14:29:36.516Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/imgs/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/1.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -69,9 +104,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-云计算实验3实验报告" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-云计算实验3实验报告" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/03/17/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" class="article-date">
   <time class="dt-published" datetime="2025-03-17T09:14:01.000Z" itemprop="datePublished">2025-03-17</time>
@@ -84,8 +117,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/03/17/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/">云计算实验3实验报告</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      云计算实验3实验报告
     </h1>
   
 
@@ -186,192 +219,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-测试1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/03/17/%E6%B5%8B%E8%AF%951/" class="article-date">
-  <time class="dt-published" datetime="2025-03-17T09:07:08.000Z" itemprop="datePublished">2025-03-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/03/17/%E6%B5%8B%E8%AF%951/">测试1</a>
-    </h1>
+    <a href="/2025/03/17/%E6%B5%8B%E8%AF%951/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">测试1</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>测试1</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2025/03/17/%E6%B5%8B%E8%AF%951/" data-id="cm8cugal80001cgu12ovl9qbr" data-title="测试1" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-修改测试1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/03/17/%E4%BF%AE%E6%94%B9%E6%B5%8B%E8%AF%951/" class="article-date">
-  <time class="dt-published" datetime="2025-03-17T08:06:33.000Z" itemprop="datePublished">2025-03-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/03/17/%E4%BF%AE%E6%94%B9%E6%B5%8B%E8%AF%951/">修改测试</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="额外注意"><a href="#额外注意" class="headerlink" title="额外注意"></a>额外注意</h1><h2 id="main-cc"><a href="#main-cc" class="headerlink" title="main.cc"></a><code>main.cc</code></h2><p><code>/code/lab5/main.cc</code> 中 <code>第60行</code> 修改为：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">extern</span> <span class="type">void</span> <span class="title function_">NAppend</span><span class="params">(<span class="type">char</span> *nachosFileFrom, <span class="type">char</span> *nachosFileTo)</span>;</span><br></pre></td></tr></table></figure>
-
-<h2 id="文件内容拷贝（参考实验二）"><a href="#文件内容拷贝（参考实验二）" class="headerlink" title="文件内容拷贝（参考实验二）"></a>文件内容拷贝（参考实验二）</h2><p>对于需要修改的源码文件，拷贝源码文件到 <code>/code/lab5</code> 后进行编辑。</p>
-<p>首先，参照实验二，从 <code>code/filesys</code> 拷贝以下内容到 <code>code/lab5</code></p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">arch目录    Makefile    Makefile.local</span><br></pre></td></tr></table></figure>
-
-<p>编辑 <code>code/lab5/Makefile</code> 的 <code>第20行</code> 修改为：</p>
-<figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">include</span> ../lab5/Makefile.local</span><br></pre></td></tr></table></figure>
-
-<p><code>code/lab5/Makefile.local</code> 的 <code>第20行</code> 修改为：</p>
-<figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INCPATH += -I../lab5 -I../userprog -I../filesys</span><br></pre></td></tr></table></figure>
-
-<h2 id="函数的声明、实现与重载"><a href="#函数的声明、实现与重载" class="headerlink" title="函数的声明、实现与重载"></a>函数的声明、实现与重载</h2><p><img src="/imgs/%E4%BF%AE%E6%94%B9%E6%B5%8B%E8%AF%95/111.png" alt="插入图片测试"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2025/03/17/%E4%BF%AE%E6%94%B9%E6%B5%8B%E8%AF%951/" data-id="cm8cugal50000cgu1ggjqft7m" data-title="修改测试" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-上传测试" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/03/12/%E4%B8%8A%E4%BC%A0%E6%B5%8B%E8%AF%95/" class="article-date">
-  <time class="dt-published" datetime="2025-03-12T12:43:17.000Z" itemprop="datePublished">2025-03-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/03/12/%E4%B8%8A%E4%BC%A0%E6%B5%8B%E8%AF%95/">上传测试</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>云计算更新博客测试</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2025/03/12/%E4%B8%8A%E4%BC%A0%E6%B5%8B%E8%AF%95/" data-id="cm85wxfh30000uwu1fa9b880a" data-title="上传测试" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/03/12/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2025-03-12T12:15:12.437Z" itemprop="datePublished">2025-03-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/03/12/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2025/03/12/hello-world/" data-id="cm85w0o2g0000a4u15qlhcreb" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
